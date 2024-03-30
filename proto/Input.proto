@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package go_packageedl ;
+
+option go_package = "example.grpc.practice.servers";
+
+
+message SampleMessage {
+  int32 id = 1;
+  string name = 2;
+}
+
+message UserDetails {
+    int32 id = 1;
+    string name = 2;
+  }
+
+service AvailableServices{
+    rpc GetUserDetail(SampleMessage) returns (UserDetails);
+}
