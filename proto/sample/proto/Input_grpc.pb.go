@@ -4,7 +4,7 @@
 // - protoc             v5.26.1
 // source: Input.proto
 
-package example_grpc_practice_servers
+package proto
 
 import (
 	context "context"

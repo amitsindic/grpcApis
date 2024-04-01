@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package go_packageedl ;
+package go_package;
 
-option go_package = "example.grpc.practice.servers";
+option go_package="sample/proto";
 
 
 message SampleMessage {
